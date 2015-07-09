@@ -95,7 +95,7 @@
     <!-- some form validation -->
     <script>
       function changeQuantity(num) {
-        e = document.getElementById("qty");
+        var e = document.getElementById("qty");
         if (e.value == '') {
           e.value = 0;
         }
@@ -104,7 +104,7 @@
       }
 
       function quantityCheck() {
-        e = document.getElementById("qty");
+        var e = document.getElementById("qty");
         if (e.valueAsNumber <= 0) {
           e.value = '';
         }
