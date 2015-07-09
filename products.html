@@ -4,6 +4,11 @@
     <meta charset="utf-8">
     <title>Secret World</title>
 
+    <!-- bootstrap css file. freely available under MIT license,
+    used for academic purposes -->
+    <link
+      href="http://netdna.bootstrapcdn.com/bootstrap/3.0.2/css/bootstrap.min.css"
+      rel="stylesheet">
     <link href="css/main.css" rel="stylesheet">
 
     <script src="js/secretw.js"></script>
@@ -11,10 +16,14 @@
   </head>
   <body>
   	<!-- Header Section -->
-  	<header id="page-header">
-
+  	<header id="page-header" class="container">
+      
+      <div id="name">
+        <a href="index.html">The Bridge Emporium</a>
+      </div>
+      
   	  <!-- Navigation -->
-  	  <nav class="main-nav">
+  	  <nav id="main-nav">
   	    <ul>
   	  	  <li><a href="home.html">Home</a></li>
   	  	  <li><a href="products.html">Products</a></li>
@@ -24,31 +33,77 @@
   	  </nav>
 
   	</header>
+    
+    <section id="banner">
+      Picture Here
+    </section>
 
   	<!-- Content Area -->
-  	<main>
-  	  <section id="site-welcome">
-  	  	<h1>Welcome to the Secret Imporium</h1>
-  	  	<h3>Because information wants to be free</h3>
-  	  	<p>Introduction content related to the above titles</p>
-  	  </section>
+    <main class="container">
 
-  	  <section id="site-news">
-  	    <article>
-  	      <h2 class="title">Site Launch!</h2>
-  	      <p>Is nothing sacred anymore? Do we have to know everything?</p>
-  	      <p>Yes.</p>
-  	    </article>
-
-  	    <article>
-  	      <h2 class="title">First Products Released</h2>
-  	      <p>Visit our <a href="products.html">products</a> page to inspect our
-            first range of new products. Sate your curiosity
-  	        by purchasing the <a href="single_product.html">whole bundle</a> and
-            begin your journey to universal knowledge.</p>
-  	    </article>
+      <section id="products">
+        
+        <ul id="product-list">
+  	      <li class="span2">
+            <a href="single_product.html">
+              <img alt="Golden Gate Bridge" src="/images/golden-gate.png?width=215&amp;quality=90&amp;404=default">
+            </a>
+            <div class="product-meta">
+              <h2>
+                <a href="/single_product.html">
+                  Golden Gate
+                </a>
+              </h2>
+              <small class="brand-small">San Francisco</small>
+              <small>Bridges</small>
+              <div class="row-fluid">
+                <div class="span4 price">24,000,000 AUD</div>
+                  <div class="span8 pull-right icon-lights"></div>
+              </div>
+            </div>
+          </li>
+          
+          <li class="span2">
+            <a href="/products/timbuktu/3586/noll-tollerans-3">
+              <img alt="Noll Tollerans" src="/images/noll-tollerans-3.jpg?width=215&amp;quality=90&amp;404=default">
+            </a>
+            <div class="product-meta">
+              <h2>
+                <a href="/products/timbuktu/3586/noll-tollerans-3">
+                  Noll Tollerans
+                </a>
+              </h2>
+              <small class="brand-small">Timbuktu</small>
+              <small>T-shirts</small>
+              <div class="row-fluid">
+                <div class="span4 price">24 EUR</div>
+                  <div class="span8 pull-right icon-lights"></div>
+              </div>
+            </div>
+          </li>
+          
+          <li class="span2">
+            <a href="/products/timbuktu/3586/noll-tollerans-3">
+              <img alt="Noll Tollerans" src="/images/noll-tollerans-3.jpg?width=215&amp;quality=90&amp;404=default">
+            </a>
+            <div class="product-meta">
+              <h2>
+                <a href="/products/timbuktu/3586/noll-tollerans-3">
+                  Noll Tollerans
+                </a>
+              </h2>
+              <small class="brand-small">Timbuktu</small>
+              <small>T-shirts</small>
+              <div class="row-fluid">
+                <div class="span4 price">24 EUR</div>
+                  <div class="span8 pull-right icon-lights"></div>
+              </div>
+            </div>
+          </li>
+        </ul>
   	  </section>
-  	</main>
+      
+    </main>
 
   	<!-- Footer -->
   	<footer>

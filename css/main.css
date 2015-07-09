@@ -1,35 +1,68 @@
-// Main CSS
+/* Main CSS */
 
 body, body * {
 	margin:0;
+	font-family: 'Helvetica';
+}
+
+li {
+	line-height: 18px;
 }
 
 /***** Header *****/
 
 header {
 	height: 86px;
-	background-color: rgba(0,0,0,0.8);
+	background-color: #FFF;
+	clear: both;
+  	margin: 0 auto;
+  	padding: 10px 0 8px 0; 
 }
 
 header h3 {
 	color: orange;
 }
 
+header a {
+	color: #464646;
+}
+
 section h1 {
 	margin-top: 1em;
+}
+
+#name {
+	float: left;
+  	color: #fff;
+  	overflow: hidden;
+  	font-size: 16px;
+  	margin: 16px 0 10px 0;
+  	width: 404px;
+  	height: 40px;
+}
+
+#name a {
+	display: block;
+  	border: none;
+  	color: #202020;
+  	height: 55px;
+  	font-size: 25px;
+  	text-decoration: none;
+	text-transform: uppercase;
+	font-family: "Helvetica";
 }
 
 /***** Navigation *****/
 
 nav {
-	width: 1170px;
+	float: left;
 	padding-left: 15px;
 	padding-right: 15px;
 	margin:0 auto;
 }
 
 nav ul {
-	margin: 0;
+	margin: 20px;
 }
 
 nav ul li {
@@ -37,26 +70,16 @@ nav ul li {
 	margin: 0;
 }
 
-nav li > span {
-	padding: 5px 10px;
-	display: inline-block;
-  background-color: rgba(0,0,0,0.8);
-	color:blue;
-	border-top-left-radius: 5px;
-	border-top-right-radius: 5px;
+nav > li a, nav > li a:visited {
+	color: #212121;
 }
 
-nav li > span:hover, .active {
-	background-color: white;
-}
-
-li a:hover, li a:active {
+nav > li a:hover, nav > li a:active {
 	color: #212121;
 	text-decoration: none;
-}
-
-li a, a:visited {
-	color: #aaa;
+  	font-size: 22px;
+  	float: left;
+  	padding: .2em .5em;
 }
 
 /***** Main Content *****/
@@ -64,6 +87,29 @@ li a, a:visited {
 main {
 	position: relative;
 	left: 0;
+}
+
+#banner {
+	background-color: #e0e0e0;
+	height: 300px;
+}
+
+/***** Products *****/
+
+#product-list {
+	list-style: none;
+}
+
+#product-list > li {
+	float: left;
+  	margin: 0 0 18px 26px;
+}
+
+.product-meta h2 {
+	line-height: 1.2em;
+	font-size: 1.5rem;
+	font-family: Helvetica;
+	text-transform: uppercase;
 }
 
 #purchase-form {
