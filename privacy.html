@@ -2,52 +2,55 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>Secret Emporium</title>
+    <title>Secret World</title>
 
+    <!-- bootstrap css file. freely available under MIT license,
+    used for academic purposes -->
+    <link
+      href="http://netdna.bootstrapcdn.com/bootstrap/3.0.2/css/bootstrap.min.css"
+      rel="stylesheet">
     <link href="css/main.css" rel="stylesheet">
 
     <script src="js/secretw.js"></script>
     <script src="js/secretw-data.js"></script>
   </head>
   <body>
+
   	<!-- Header Section -->
-  	<header id="page-header">
+  	<header id="page-header" class="container">
+
+      <div id="name">
+        <a href="index.html">The Bridge Emporium</a>
+      </div>
 
       <!-- Navigation -->
   	  <nav class="main-nav">
   	    <ul>
-  	  	  <li><span><a href="index.html">Home</a></span></li>
-  	  	  <li><span><a href="products.html">Products</a></span></li>
-  	  	  <li><span><a href="single_product.html">Item of the Day</a></span></li>
-  	  	  <li><span class="active"><a href="privacy.html">Privacy</a></span></li>
+  	  	  <li><a href="index.html">Home</a></li>
+  	  	  <li><a href="products.html">Products</a></li>
+  	  	  <li><a href="single_product.html">Item of the Day</a></li>
+  	  	  <li><a href="privacy.html">Privacy</a></li>
   	    </ul>
   	  </nav>
 
   	</header>
 
+    <!-- Banner splitting header and content -->
+    <section id="banner">
+      <img src="img/banner-bridge.jpg">
+    </section>
+
   	<!-- Content Area -->
-  	<main>
-  	  <section id="site-welcome">
-  	  	<h1>Welcome to the Secret Imporium</h1>
-  	  	<h3>Because information wants to be free</h3>
-  	  	<p>Introduction content related to the above titles</p>
-  	  </section>
+  	<main class="container">
 
-  	  <section id="site-news">
+  	  <section id="privacy-policy">
   	    <article>
-  	      <h2 class="title">Site Launch!</h2>
-  	      <p>Is nothing sacred anymore? Do we have to know everything?</p>
-  	      <p>Yes.</p>
-  	    </article>
-
-  	    <article>
-  	      <h2 class="title">First Products Released</h2>
-  	      <p>Visit our <a href="products.html">products</a> page to inspect our
-            first range of new products. Sate your curiosity
-  	        by purchasing the <a href="single_product.html">whole bundle</a> and
-            begin your journey to universal knowledge.</p>
+  	      <h2 class="title">Privacy Policy</h2>
+  	      <p>We respect your right to privacy blah blah blah...</p>
+  	      <p>We actually don't, this is the internet afterall.</p>
   	    </article>
   	  </section>
+
   	</main>
 
   	<!-- Footer -->
