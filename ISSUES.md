@@ -6,7 +6,7 @@
 - --W3C validation for html5/css3 need to be added.--
 - --Products list should have its internal font changed to match site style.--
 - --Front page needs content for it's article examples.--
-- Front page news articles require style section to be created
+- --Front page news articles require style section to be created--
 - Single product needs to lose the top banner, but have an 'aside' created
 on the left hand side containing an image representing the product.
 - Single product form plus/minus buttons should be of uniform size.
