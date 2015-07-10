@@ -128,12 +128,26 @@ main section {
 .product-meta h2 {
 	line-height: 1.2em;
 	font-size: 1.5rem;
-	font-family: Helvetica;
+	font-family: Helvetica, sans-serif;
 	text-transform: uppercase;
 }
 
 #product-list li img {
 	width: 192px;
+	margin-bottom: 10px;
+}
+
+small {
+	display: block;
+	text-transform: uppercase;
+	font-size: 10px;
+}
+
+.price {
+	text-align: right;
+	font-style: italic;
+	font-size: 12px;
+	font-family: Arial, Helvetica, sans-serif;
 }
 
 #purchase-form {
