@@ -99,6 +99,14 @@ main section {
 #banner {
 	background-color: #e0e0e0;
 	height: 300px;
+	text-align: center;
+	overflow: hidden;
+}
+
+#banner img {
+	width: 1170px;
+	position: relative;
+	top: -100px;
 }
 
 /***** Products *****/
@@ -110,6 +118,10 @@ main section {
 #product-list li {
 	float: left;
   margin: 0 0 18px 26px;
+}
+
+.product-meta {
+	line-height: 2em;
 }
 
 .product-meta h2 {
