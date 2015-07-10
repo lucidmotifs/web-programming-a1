@@ -1,6 +1,6 @@
 *Current Issues*
 
-- Products page requires more products.
+- --Products page requires more products.--
 - Products page images should be uniform sizes.
 - Footer needs to always be at the bottom, even when page resizes.
 - W3C validation for html5/css3 need to be added.
