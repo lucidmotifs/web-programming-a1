@@ -109,6 +109,11 @@ main section {
 	top: -100px;
 }
 
+#site-welcome {
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
 /***** Products *****/
 
 #product-list {
@@ -159,6 +164,12 @@ small {
 	border-radius: 2px;
 	margin-top: 2em;
 	margin-bottom: 2em;
+}
+
+/***** News Section *****/
+
+.title {
+	margin-bottom:8px;
 }
 
 /***** Form Elements *****/
