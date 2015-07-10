@@ -14,3 +14,4 @@ on the left hand side containing an image representing the product.--
 - Add permission tag to all images used.
 - Change Page titles. Add fav-icon.
 - --Redo style section on single_product to better match site style.--
+- Add privacy policy
