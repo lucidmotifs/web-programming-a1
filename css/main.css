@@ -72,11 +72,17 @@ nav ul li {
 
 nav li a, nav li a:visited,
 nav li a:hover, nav li a:active {
-	color: #212121;
-	text-decoration: none;
+	color: #505050;
+	text-decoration: overline;
   font-size: 18px;
   float: left;
   padding: .2em .5em;
+	font-family: 'Helvetica';
+}
+
+nav li a:hover, nav li a:active {
+	color: #212121;
+	text-decoration: underline;
 }
 
 /***** Main Content *****/
