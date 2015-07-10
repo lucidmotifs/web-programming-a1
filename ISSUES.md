@@ -10,3 +10,5 @@
 - Single product needs to lose the top banner, but have an 'aside' created
 on the left hand side containing an image representing the product.
 - Single product form plus/minus buttons should be of uniform size.
+- Create page title / label for each of the pages.
+- Add permission tag to all images used.
